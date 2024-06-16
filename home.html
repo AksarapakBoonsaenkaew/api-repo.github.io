@@ -7,19 +7,18 @@
 
 <body>
    <script src="script.js"></script> 
-   <form class="form" id="form">
+   <form class="form" id="contact-form">
     <h1>แบบฟอร์มลงทะเบียน</h1>
     <div class="form-control">
       <label for="username">ชื่อผู้ใช้</label>
-      <input type="text" name="" id="username" placeholder="กรอก username">
-      <small>error message</small>
+      <input type="text" name="name" id="username" placeholder="กรอก username">
     </div>
     <div class="form-control">
       <label for="phone">โทรศัพท์</label>
       <input type="phone" name="" id="phone" placeholder="กรอก phone">
-      <small>error message</small>
     </div>
     <button type="submit">ยืนยันข้อมูล</button>
   </form>
+  <div id="response-message"></div>
 </body>
 </html>
